@@ -1,0 +1,13 @@
+{
+  "name": "BiSS-C Encoder (IDM39A)",
+  "apiVersion": "1.0.0",
+  "author": "aave",
+  "version": "1.0.1",
+  "description": "BiSS-C decoder for IDM39A-4096-MT-BISS: 37-bit frame, TURNS/ANGLE/E/W, CRC-6 check.",
+  "extensions": {
+    "BiSS-C (IDM39A)": {
+      "type": "HighLevelAnalyzer",
+      "entryPoint": "HighLevelAnalyzer.Hla"
+    }
+  }
+}
