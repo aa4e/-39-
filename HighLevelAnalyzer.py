@@ -157,9 +157,4 @@ class Hla(HighLevelAnalyzer):
             if feedback:
                 crc ^= POLY
 
-            # if crc & 0x20:
-                # crc = ((crc << 1) | bit) ^ 0x43
-            # else:
-                # crc = (crc << 1) | bit
-            # crc &= 0x3F
         return crc ^ 0x3F
